@@ -1,0 +1,129 @@
+nav{
+    font-family: "Roboto";
+    background-color:#3A5199;
+    font-size:20px;
+    font-weight: 800;
+    position: fixed;
+    width: 100vw;
+    text-decoration: none;
+    z-index: 1;
+}
+#skills{
+    background-color: #3a465c;
+    display: grid;
+    padding-top: 3rem;
+   
+  
+}
+#identificador{
+    font-family:"Poppins";
+    font-size: 32px;
+    font-weight: 700;
+}
+span{ 
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 12px;
+    color:#fff;
+    display:block;
+    line-height: 1.1;
+    padding: 0 13px;
+    position: relative;
+}
+#hero-section{
+    background-color:#3a465c;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#sobre-mi{
+    background-color: #3a465c;
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+
+#MiExperiencia{
+    font-family: "Poppins";
+    padding-top:3rem;
+    padding-bottom: 3rem;
+   
+}
+#avatar{
+    float: center;
+   
+    shape-outside: circle();
+    clip-path: circle();
+   
+ 
+}
+#mis_servicios{
+    float: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: #fbc512;
+ 
+}
+#MiExperiencia h2{
+    font-weight: 600;
+    font-size: 48px;
+}
+#MisultimosTrabajos{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #3A5199;
+    color: #152534;
+    padding-bottom:3rem ;
+    padding-top: 3rem;
+   
+}
+#Contacto h1{
+    font-family: "Poppins";
+    font-size: 48px;
+}
+#presentavc{
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight:400;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  
+}
+footer{
+    background-color: #fbc512;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #152534;
+}
+#redes a{
+    color:#152534;
+    text-decoration: none;
+}
+span::before{
+    background: linear-gradient(90deg,var(--start-color),var(--end-color));
+    content:var(--content);
+    position: absolute;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated 9s infinite;
+    animation-delay: var(--delay);
+}
+
+@keyframes animated{
+    0%, 16.667%, 100%{
+        opacity: 1;
+    }
+    33.333%, 83.333%{
+        opacity: 0;
+    }
+}
